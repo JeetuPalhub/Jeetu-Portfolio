@@ -1,7 +1,7 @@
 export type SocialLink = {
-  name: "GitHub" | "LinkedIn" | "X" | "Peerlist";
+  name: "GitHub" | "LinkedIn" | "X" | "Peerlist" | "LeetCode";
   href: string;
-  key: "github" | "linkedin" | "x" | "peerlist";
+  key: "github" | "linkedin" | "x" | "peerlist" | "leetcode";
 };
 
 export type Project = {
@@ -30,6 +30,11 @@ export const socialLinks: SocialLink[] = [
     key: "linkedin",
   },
   { name: "X", href: "https://x.com/Jeetupal31", key: "x" },
+  {
+    name: "LeetCode",
+    href: "https://leetcode.com/u/v28g5GHzU2/",
+    key: "leetcode",
+  },
   { name: "Peerlist", href: "https://peerlist.io/jeetupal31", key: "peerlist" },
 ];
 
@@ -56,6 +61,7 @@ export const projects: Project[] = [
     image: "/projects/leetlab.svg",
     tech: ["Next.js", "TypeScript", "PostgreSQL", "Redis"],
     githubUrl: "https://github.com/JeetuPalhub/leetlab",
+    liveUrl: "https://leetlab-nu.vercel.app/",
   },
   {
     name: "SecondBrain",
@@ -76,3 +82,4 @@ export const journeyPoints = [
 ];
 
 export const contactEmail = "jeetupal31@gmail.com";
+export const contactPhone = "6387995833";

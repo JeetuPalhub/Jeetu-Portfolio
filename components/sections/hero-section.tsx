@@ -8,6 +8,7 @@ import {
   Layers3,
   Linkedin,
   Sparkles,
+  Trophy,
   Twitter,
 } from "lucide-react";
 import { socialLinks } from "@/data/portfolio";
@@ -17,6 +18,7 @@ const socialIconMap = {
   github: Github,
   linkedin: Linkedin,
   x: Twitter,
+  leetcode: Trophy,
   peerlist: Layers3,
 };
 
