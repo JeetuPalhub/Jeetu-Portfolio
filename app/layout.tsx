@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jeetupal-portfolio.vercel.app"),
+  metadataBase: new URL("https://lab20-one.vercel.app"),
   title: {
     default: "Jeetu Pal | Full Stack Developer",
     template: "%s | Jeetu Pal",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Jeetu Pal | Full Stack Developer",
     description:
       "Building scalable web apps, backend systems, and thoughtful developer experiences.",
-    url: "https://jeetupal-portfolio.vercel.app",
+    url: "https://lab20-one.vercel.app",
     siteName: "Jeetu Pal Portfolio",
     images: [
       {
